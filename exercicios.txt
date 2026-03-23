@@ -1,0 +1,56 @@
+1) Resolva as expressões a seguir:
+
+a) (3 >= 2) or (1 == 3) ==> True
+b) (1 + 1) == (3 - 1) ==> True
+c) 7 > 8 - 1 ==> False
+d) 5 + 3 == 8 ==> True
+e) 7 % 4 > 3 ==> False
+f) 5 * 2 == 20 // 2 ==> True
+
+2) Resolva as expressões a seguir:
+
+a) False and False ==> False
+b) True and True ==> True
+c) not not True ==> True
+d) True or False and True ==> True
+e) False and (False or True) ==> False
+f) not (False or True) ==> False
+g) False or True and not False ==> True
+
+3) Resolva as expressões a seguir:
+
+a) 7 + 6 >= 8 or 5 < 2 ==> True
+b) 7 == 7 % 8 and (not False) ==> True
+c) 13 // 2 * 2 == 13 ==> False
+d) 7 % 2 == 1 and 8 % 2 == 0 ==> True
+
+4) Resolva as expressões a seguir: Considere as variáveis inteiras x = 7, y = 8, e z = False:
+
+a) 7 >= 8 or False ==> False
+b) 7 + 8 * 7 % 7 == 0 ==> False
+c) 7 >= 8 or not (not False) ==> False
+d) 7 // 8 == 0 ==> True
+
+5) Qual alternativa pode ser utilizada para verificar se X pertence ao intervalo [8, 19] (inclusive o 8 e o 19)
+
+a) X >= 8 or X <= 19
+b) X == 8 and X == 19
+c) X >= 8 and X <= 19 ==> Correta
+d) X > 8 or X < 19
+e) X < 8 or X > 19
+
+6) Qual das alternativas pode ser utilizada para verificar se X é múltiplo de 4 e de 3 simultaneamente:
+
+a) X % 4 and X % 3 == 0
+b) X % 4 or 4 == 0 
+c) X % 4 == 0 or X % 3 == 0
+d) X % 4 == 0 and X % 3 == 0 ==> Correta
+e) X % 4 + 3 == 0
+
+7) Qual das alternativas pode ser utilizada para verificar se X é um número par e maior que 10 simultaneamente?
+
+a) X % 2 == 0 or X > 10
+b) X % 2 == 1 and X > 10
+c) X % 2 == 0 and X > 10 ==> Correta
+d) X % 2 and X > 10 == 0
+e) X % 2 == 0 + 10
